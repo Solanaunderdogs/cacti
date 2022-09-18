@@ -80,15 +80,7 @@ const TopNav: React.FC<TopNavProps> = ({ showCurrencyToggle = false }) => {
             <Link to={item.url}>{item.name}</Link>
           </li>
         ))}
-        <DropdownAnchor
-          ref={anchorRef}
-          onClick={handleToggle}
-          className={
-            OTHER_LAYOUT_ROUTES.some((item) => item.url === pathname)
-              ? "active"
-              : ""
-          }
-        >
+        
           Other Layouts
           <Popper
             open={open}

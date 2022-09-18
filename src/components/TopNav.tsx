@@ -16,11 +16,8 @@ interface TopNavProps {
 }
 
 const ROUTES = [
-  { url: RouteName.home, name: "Marketplace" },
-  { url: RouteName.sell, name: "Sell" },
   { url: RouteName.customToken, name: "$CACTI Shop" },
   { url: RouteName.auctionsView, name: "$CACTI Auctions" },
-  { url: RouteName.multipleCurrencySell, name: "Multi Currency Sell" },
 ];
 
 const OTHER_LAYOUT_ROUTES = [

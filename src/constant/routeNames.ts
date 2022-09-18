@@ -6,7 +6,7 @@ export enum RouteName {
   marketplaceMint = "/marketplace/:tokenMint",
   sell = "/sell",
   drop = "/drop",
-  customToken = "/custom-token-marketplace",
+  customToken = "/shop",
   multipleCollection = "/multi-collection-marketplace",
   marketplaceWithUrl = "/marketplace-with-url",
   multipleCurrencyMarketplace = "/multi-currency-marketplace",

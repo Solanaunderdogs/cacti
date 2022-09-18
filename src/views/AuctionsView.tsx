@@ -10,7 +10,7 @@ const AuctionsView: React.FC = () => {
   return (
     <DesContainer>
       <h1 style={{ marginTop: 40, marginBottom: 15 }}>$CACTI Auctions</h1>
-      <p style={{ marginBottom: 40 }}>Bid on NFTs using $CACTI!</p>
+      <p style={{ marginBottom: 40 }}>Bids are only in $CACTI.</p>
       <Auctions candyShop={candyShop} wallet={wallet} walletConnectComponent={<WalletMultiButton />} />
     </DesContainer>
   );

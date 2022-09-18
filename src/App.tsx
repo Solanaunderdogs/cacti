@@ -63,7 +63,7 @@ const theme = createTheme({
 // Used for a multi-currency shop
 const currencyOptions = [
   {
-    currencySymbol: "SOL",
+    currencySymbol: "$CACTI",
     treasuryMint: "So11111111111111111111111111111111111111112",
     currencyDecimals: 9,
     priceDecimals: 3,

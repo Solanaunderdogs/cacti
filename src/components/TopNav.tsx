@@ -20,13 +20,14 @@ const ROUTES = [
   { url: RouteName.sell, name: "Sell" },
   { url: RouteName.customToken, name: "$CACTI Shop" },
   { url: RouteName.auctionsView, name: "$CACTI Auctions" },
+  { url: RouteName.multipleCurrencySell, name: "Multi Currency Sell" },
 ];
 
 const OTHER_LAYOUT_ROUTES = [
   { url: RouteName.multipleCollection, name: "Multi Collection Marketplace" },
   { url: RouteName.marketplaceWithUrl, name: "Marketplace With URL" },
   
-  { url: RouteName.multipleCurrencySell, name: "Multi Currency Sell" },
+  
   { url: RouteName.activityView, name: "Marketplace Activity" },
 ];
 
